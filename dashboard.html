@@ -15,7 +15,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">Navbar</a>
+        <a class="navbar-brand" href="index.html">Napier University</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.php">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Accommodation List</a>
@@ -35,38 +35,61 @@
             </ul>
         </div>
     </nav>
-    <div style="padding-top:10vh;"></div>
+    <div style="padding-top:5vh;"></div>
     <div class="container">
+        <h3>Dashboard</h3>
+        <div style="padding-top:5vh;"></div>
         <div class="row">
-            <div class="col-sm">
-                <div class="card" style="width: 18rem;">
-
-                    <div class="card-body">
-                        <h5 class="card-title">5 Issues Reported Recently</h5>
-
-                        <a href="#" class="btn btn-primary">View recent issues</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card" style="width: 18rem;">
+            <div class="col-sm" style="display:flex;flex-flow:row wrap;">
+                <div class="card" style="width: 14rem;margin-top:5px;margin-left:5px;">
 
                     <div class="card-body">
                         <h5 class="card-title">Report Issue</h5>
 
-                        <a href="#" class="btn btn-primary">Report an Issue</a>
+                        <a href="report.html" class="btn btn-primary">Report an Issue</a>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 14rem;margin-top:5px;margin-left:5px;">
+
+                    <div class="card-body">
+                        <h5 class="card-title">5 Issues Reported Recently</h5>
+
+                        <a href="issues.html" class="btn btn-primary">View recent issues</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 14rem;margin-top:5px;margin-left:5px;">
 
                     <div class="card-body">
                         <h5 class="card-title">Settings</h5>
 
-                        <a href="#" class="btn btn-primary">Settings</a>
+                        <a href="settings.html" class="btn btn-primary">Settings</a>
                     </div>
                 </div>
+            </div>
+            <div class="col-sm">
+                <h6>Your Issue History</h6>
+                <table class="table">
+                    <tbody>
+                      <tr>
+                        <th scope="row">100820</th>
+                        <td>Issue</td>
+                        <td>Heating</td>
+                        <td>23/10/20</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">100821</th>
+                        <td>Issue</td>
+                        <td>Plumbing</td>
+                        <td>24/10/20</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">100822</th>
+                        <td>Issue</td>
+                        <td>Leak</td>
+                        <td>25/10/20</td>
+                      </tr>
+                    </tbody>
+                  </table>
             </div>
         </div>
     </div>
